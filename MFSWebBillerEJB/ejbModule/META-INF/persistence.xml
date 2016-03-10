@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence 
+	http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0" xmlns="http://java.sun.com/xml/ns/persistence">
+	<persistence-unit name="mfs.db.MFSDAO"
+		transaction-type="JTA">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<jta-data-source>biller/db</jta-data-source>
+		<class>mfs.biller.persistence.bean.BillerService</class>
+        <class>mfs.biller.persistence.bean.DropdownlistBillservice</class>
+		<properties>
+			<property name="javax.persistence.jtaDataSource" value="java:/biller/db" />
+		</properties>
+	</persistence-unit>
+</persistence>
+
+<!--<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence 
+	http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"> <persistence-unit 
+	name="mfs.db.MFSDAO" transaction-type="RESOURCE_LOCAL"> <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider> 
+	<class>mfs.biller.persistence.bean.BillerRefDataType</class> <properties> 
+	<property name="eclipselink.jdbc.driver" value="oracle.jdbc.OracleDriver" 
+	/> <property name="eclipselink.jdbc.url" value="jdbc:oracle:thin:@10.64.116.135:1721:shot1" 
+	/> <property name="eclipselink.jdbc.user" value="cafetrun" /> <property name="eclipselink.jdbc.password" 
+	value="cafetrun" /> </properties> </persistence-unit> </persistence> -->

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="AXIS" systemlibrary="false">
+        <archive path="/Lib/AXIS/axis.jar"/>
+        <archive path="/Lib/AXIS/commons-discovery-0.4.jar"/>
+        <archive path="/Lib/AXIS/jaxrpc.jar"/>
+        <archive path="/Lib/AXIS/saaj.jar"/>
+        <archive path="/Lib/AXIS/wsdl4j.jar"/>
+        <archive path="/Lib/AXIS/axis-ssl-1.4.jar"/>
+    </library>
+    <library name="AXIS2" systemlibrary="false">
+        <archive path="/Lib/AXIS2/activation-1.1.jar"/>
+        <archive path="/Lib/AXIS2/axiom-api-1.2.8.jar"/>
+        <archive path="/Lib/AXIS2/axiom-dom-1.2.8.jar"/>
+        <archive path="/Lib/AXIS2/axiom-impl-1.2.8.jar"/>
+        <archive path="/Lib/AXIS2/axis2-adb-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-adb-codegen-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-ant-plugin-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-clustering-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-codegen-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-corba-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-fastinfoset-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-java2wsdl-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-jaxbri-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-jaxws-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-jibx-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-json-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-kernel-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-metadata-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-mtompolicy-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-saaj-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-spring-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-transport-http-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-transport-local-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/axis2-xmlbeans-1.5.1.jar"/>
+        <archive path="/Lib/AXIS2/httpcore-4.0.jar"/>
+        <archive path="/Lib/AXIS2/neethi-2.0.4.jar"/>
+        <archive path="/Lib/AXIS2/XmlSchema-1.4.3.jar"/>
+    </library>
+    <library name="CXF" systemlibrary="false">
+        <archive path="/Lib/CXF/activemq-broker-5.8.0.jar"/>
+        <archive path="/Lib/CXF/activemq-client-5.8.0.jar"/>
+        <archive path="/Lib/CXF/activemq-openwire-legacy-5.8.0.jar"/>
+        <archive path="/Lib/CXF/antlr-2.7.7.jar"/>
+        <archive path="/Lib/CXF/aopalliance-1.0.jar"/>
+        <archive path="/Lib/CXF/asm-3.3.1.jar"/>
+        <archive path="/Lib/CXF/commons-codec-1.9.jar"/>
+        <archive path="/Lib/CXF/commons-collections-3.2.1.jar"/>
+        <archive path="/Lib/CXF/commons-lang-2.6.jar"/>
+        <archive path="/Lib/CXF/commons-logging-1.1.1.jar"/>
+        <archive path="/Lib/CXF/cxf-2.7.10.jar"/>
+        <archive path="/Lib/CXF/cxf-manifest.jar"/>
+        <archive path="/Lib/CXF/cxf-services-sts-core-2.7.10.jar"/>
+        <archive path="/Lib/CXF/cxf-services-ws-discovery-api-2.7.10.jar"/>
+        <archive path="/Lib/CXF/cxf-services-ws-discovery-service-2.7.10.jar"/>
+        <archive path="/Lib/CXF/cxf-services-wsn-api-2.7.10.jar"/>
+        <archive path="/Lib/CXF/cxf-services-wsn-core-2.7.10.jar"/>
+        <archive path="/Lib/CXF/cxf-xjc-boolean-2.6.2.jar"/>
+        <archive path="/Lib/CXF/cxf-xjc-bug671-2.6.2.jar"/>
+        <archive path="/Lib/CXF/cxf-xjc-dv-2.6.2.jar"/>
+        <archive path="/Lib/CXF/cxf-xjc-runtime-2.6.2.jar"/>
+        <archive path="/Lib/CXF/cxf-xjc-ts-2.6.2.jar"/>
+        <archive path="/Lib/CXF/ehcache-core-2.5.1.jar"/>
+        <archive path="/Lib/CXF/FastInfoset-1.2.13.jar"/>
+        <archive path="/Lib/CXF/geronimo-j2ee-management_1.1_spec-1.0.1.jar"/>
+        <archive path="/Lib/CXF/geronimo-javamail_1.4_spec-1.7.1.jar"/>
+        <archive path="/Lib/CXF/geronimo-jaxws_2.2_spec-1.1.jar"/>
+        <archive path="/Lib/CXF/geronimo-jms_1.1_spec-1.1.1.jar"/>
+        <archive path="/Lib/CXF/geronimo-servlet_3.0_spec-1.0.jar"/>
+        <archive path="/Lib/CXF/hawtbuf-1.9.jar"/>
+        <archive path="/Lib/CXF/httpasyncclient-4.0-beta3.jar"/>
+        <archive path="/Lib/CXF/httpclient-4.2.5.jar"/>
+        <archive path="/Lib/CXF/httpcore-4.2.4.jar"/>
+        <archive path="/Lib/CXF/httpcore-nio-4.2.4.jar"/>
+        <archive path="/Lib/CXF/isorelax-20030108.jar"/>
+        <archive path="/Lib/CXF/javax.ws.rs-api-2.0-m10.jar"/>
+        <archive path="/Lib/CXF/jaxb-api-2.2.6.jar"/>
+        <archive path="/Lib/CXF/jaxb-impl-2.2.6.jar"/>
+        <archive path="/Lib/CXF/jaxb-xjc-2.2.6.jar"/>
+        <archive path="/Lib/CXF/jettison-1.3.5.jar"/>
+        <archive path="/Lib/CXF/jetty-continuation-8.1.14.v20131031.jar"/>
+        <archive path="/Lib/CXF/jetty-http-8.1.14.v20131031.jar"/>
+        <archive path="/Lib/CXF/jetty-io-8.1.14.v20131031.jar"/>
+        <archive path="/Lib/CXF/jetty-security-8.1.14.v20131031.jar"/>
+        <archive path="/Lib/CXF/jetty-server-8.1.14.v20131031.jar"/>
+        <archive path="/Lib/CXF/jetty-util-8.1.14.v20131031.jar"/>
+        <archive path="/Lib/CXF/joda-time-1.6.2.jar"/>
+        <archive path="/Lib/CXF/js-1.7R2.jar"/>
+        <archive path="/Lib/CXF/mina-core-2.0.7.jar"/>
+        <archive path="/Lib/CXF/msv-core-2011.1.jar"/>
+        <archive path="/Lib/CXF/neethi-3.0.3.jar"/>
+        <archive path="/Lib/CXF/oauth-20100527.jar"/>
+        <archive path="/Lib/CXF/oauth-provider-20100527.jar"/>
+        <archive path="/Lib/CXF/opensaml-2.5.1-1.jar"/>
+        <archive path="/Lib/CXF/openws-1.4.2-1.jar"/>
+        <archive path="/Lib/CXF/relaxngDatatype-20020414.jar"/>
+        <archive path="/Lib/CXF/slf4j-api-1.7.5.jar"/>
+        <archive path="/Lib/CXF/slf4j-jdk14-1.7.5.jar"/>
+        <archive path="/Lib/CXF/spring-aop-3.0.7.RELEASE.jar"/>
+        <archive path="/Lib/CXF/spring-asm-3.0.7.RELEASE.jar"/>
+        <archive path="/Lib/CXF/spring-beans-3.0.7.RELEASE.jar"/>
+        <archive path="/Lib/CXF/spring-context-3.0.7.RELEASE.jar"/>
+        <archive path="/Lib/CXF/spring-core-3.0.7.RELEASE.jar"/>
+        <archive path="/Lib/CXF/spring-expression-3.0.7.RELEASE.jar"/>
+        <archive path="/Lib/CXF/spring-jms-3.0.7.RELEASE.jar"/>
+        <archive path="/Lib/CXF/spring-tx-3.0.7.RELEASE.jar"/>
+        <archive path="/Lib/CXF/spring-web-3.0.7.RELEASE.jar"/>
+        <archive path="/Lib/CXF/stax2-api-3.1.1.jar"/>
+        <archive path="/Lib/CXF/velocity-1.7.jar"/>
+        <archive path="/Lib/CXF/woodstox-core-asl-4.2.0.jar"/>
+        <archive path="/Lib/CXF/wsdl4j-1.6.3.jar"/>
+        <archive path="/Lib/CXF/wss4j-1.6.14.jar"/>
+        <archive path="/Lib/CXF/xmlbeans-2.6.0.jar"/>
+        <archive path="/Lib/CXF/xml-resolver-1.2.jar"/>
+        <archive path="/Lib/CXF/xmlschema-core-2.1.0.jar"/>
+        <archive path="/Lib/CXF/xmlsec-1.5.6.jar"/>
+        <archive path="/Lib/CXF/xmltooling-1.3.2-1.jar"/>
+        <archive path="/Lib/CXF/xsdlib-2010.1.jar"/>
+    </library>
+    <library name="httpclient" systemlibrary="false">
+        <archive path="/Lib/httpclient/commons-codec-1.6.jar"/>
+        <archive path="/Lib/httpclient/commons-logging-1.1.1.jar"/>
+        <archive path="/Lib/httpclient/fluent-hc-4.2.5.jar"/>
+        <archive path="/Lib/httpclient/httpclient-4.2.5.jar"/>
+        <archive path="/Lib/httpclient/httpclient-cache-4.2.5.jar"/>
+        <archive path="/Lib/httpclient/httpcore-4.2.4.jar"/>
+        <archive path="/Lib/httpclient/httpmime-4.2.5.jar"/>
+    </library>
+    <library name="JPA" systemlibrary="false">
+        <archive path="/Lib/JPA/eclipselink2.4.0.jar"/>
+        <archive path="/Lib/JPA/javax.persistence_1.99.0.v200906021518.jar"/>
+    </library>
+    <library name="JPOS" systemlibrary="false">
+        <archive path="/Lib/JPOS/bsh-2.0b4.jar"/>
+        <archive path="/Lib/JPOS/commons-cli-1.2.jar"/>
+        <archive path="/Lib/JPOS/cweb-extser-0.1-b2-dev.jar"/>
+        <archive path="/Lib/JPOS/jdbm-1.0.jar"/>
+        <archive path="/Lib/JPOS/jdom.jar"/>
+        <archive path="/Lib/JPOS/je-4.0.103.jar"/>
+        <archive path="/Lib/JPOS/jline-0.9.91.jar"/>
+        <archive path="/Lib/JPOS/jpos.jar"/>
+        <archive path="/Lib/JPOS/log4j-1.2.16.jar"/>
+    </library>
+    <library name="WS" systemlibrary="false">
+        <archive path="/Lib/WS/BBLOnlinePayment.wsdl.jar"/>
+        <archive path="/Lib/WS/Employee39Helper.wsdl.jar"/>
+        <archive path="/Lib/WS/Employee40Helper.wsdl.jar"/>
+        <archive path="/Lib/WS/GenerateReceipt.jar"/>
+        <archive path="/Lib/WS/GSB_Axis2.jar"/>
+        <archive path="/Lib/WS/GSBPaymentOnline.wsdl.jar"/>
+        <archive path="/Lib/WS/KBank.wsdl.jar"/>
+        <archive path="/Lib/WS/PaymentOnlineAPI.jar"/>
+        <archive path="/Lib/WS/SSO39_Axis.jar"/>
+        <archive path="/Lib/WS/SSO40_Axis.jar"/>
+        <archive path="/Lib/WS/DTPaymentService.jar"/>
+    </library>
+</eclipse-userlibraries>

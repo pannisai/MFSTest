@@ -1,0 +1,117 @@
+package mfs.biller.persistence.bean;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.IdClass;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+import org.eclipse.persistence.annotations.Cache;
+import org.eclipse.persistence.annotations.CacheType;
+
+@Entity
+@IdClass(value = GWOutboundPK.class)
+@Table(name = "GW_OUTBOUND")
+@Cache(type = CacheType.NONE)
+public class GWOutbound implements Serializable {
+    
+	private static final long serialVersionUID = 1L;
+	@Id
+	private Integer  GW_OUTB_ID;
+	
+	@Column(name = "GW_OUTB_NAME", nullable = false)
+	private String GW_OUTB_NAME;
+	
+	@Column(name = "GW_OUTB_MAP_ID", nullable = false)
+	private Integer GW_OUTB_MAP_ID;
+	
+	@Column(name = "ACT_FLAG", nullable = false)
+	private String ACT_FLAG;
+	
+	@Column(name = "CRTD_BY", nullable = false)
+	private String CRTD_BY;
+
+	@Column(name = "CRTD_DTTM", nullable = true)
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date CRTD_DTTM;
+	
+	@Column(name = "LAST_CHNG_BY", nullable = false)
+	private String LAST_CHNG_BY;
+
+	@Column(name = "LAST_CHNG_DTTM", nullable = true)
+	@Temporal(TemporalType.TIMESTAMP)
+	private Date LAST_CHNG_DTTM;
+
+	public Integer getGW_OUTB_ID() {
+		return GW_OUTB_ID;
+	}
+
+	public void setGW_OUTB_ID(Integer gW_OUTB_ID) {
+		GW_OUTB_ID = gW_OUTB_ID;
+	}
+
+	public String getGW_OUTB_NAME() {
+		return GW_OUTB_NAME;
+	}
+
+	public void setGW_OUTB_NAME(String gW_OUTB_NAME) {
+		GW_OUTB_NAME = gW_OUTB_NAME;
+	}
+
+	public Integer getGW_OUTB_MAP_ID() {
+		return GW_OUTB_MAP_ID;
+	}
+
+	public void setGW_OUTB_MAP_ID(Integer gW_OUTB_MAP_ID) {
+		GW_OUTB_MAP_ID = gW_OUTB_MAP_ID;
+	}
+
+	public String getACT_FLAG() {
+		return ACT_FLAG;
+	}
+
+	public void setACT_FLAG(String aCT_FLAG) {
+		ACT_FLAG = aCT_FLAG;
+	}
+
+	public String getCRTD_BY() {
+		return CRTD_BY;
+	}
+
+	public void setCRTD_BY(String cRTD_BY) {
+		CRTD_BY = cRTD_BY;
+	}
+
+	public Date getCRTD_DTTM() {
+		return CRTD_DTTM;
+	}
+
+	public void setCRTD_DTTM(Date cRTD_DTTM) {
+		CRTD_DTTM = cRTD_DTTM;
+	}
+
+	public String getLAST_CHNG_BY() {
+		return LAST_CHNG_BY;
+	}
+
+	public void setLAST_CHNG_BY(String lAST_CHNG_BY) {
+		LAST_CHNG_BY = lAST_CHNG_BY;
+	}
+
+	public Date getLAST_CHNG_DTTM() {
+		return LAST_CHNG_DTTM;
+	}
+
+	public void setLAST_CHNG_DTTM(Date lAST_CHNG_DTTM) {
+		LAST_CHNG_DTTM = lAST_CHNG_DTTM;
+	}
+
+	public String toString() {
+		return GW_OUTB_NAME+"|"+GW_OUTB_NAME+"|"+GW_OUTB_MAP_ID+"|"+ACT_FLAG+"|"+CRTD_BY+"|"+CRTD_DTTM+"|"+LAST_CHNG_BY+"|"+LAST_CHNG_DTTM;
+	}
+}

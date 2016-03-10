@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="ejbModule"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="var" path="WORKSPACE/Lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="var" path="WORKSPACE/Lib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="var" path="WORKSPACE/Lib/javaee-api-6.0.jar"/>
+	<classpathentry kind="var" path="WORKSPACE/Lib/log4j-1.2.8.jar"/>
+	<classpathentry kind="var" path="WORKSPACE/Lib/ojdbc14_g.jar"/>
+	<classpathentry kind="var" path="WORKSPACE/Lib/xercesImpl-2.8.1.jar"/>
+	<classpathentry kind="var" path="WORKSPACE/Lib/JPA/eclipselink.jar"/>
+	<classpathentry kind="var" path="WORKSPACE/Lib/JPA/javax.persistence_1.99.0.v200906021518.jar"/>
+	<classpathentry kind="con" path="org.jboss.ide.eclipse.as.classpath.core.ejb3.classpathContainer/JBoss 7.1 Runtime Server"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.jboss.ide.eclipse.as.core.server.runtime.runtimeTarget/JBoss 7.1 Runtime">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.ejb"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/MFSBackoffUtil"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
