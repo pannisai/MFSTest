@@ -69,7 +69,7 @@ public class TestServlet extends HttpServlet {
 		}
 		
 		logger.info("TEST LOG");
-		logger.debug("Dok tongggg");
+		logger.debug("Dok tonggggzzzz");
 		response.sendRedirect("./index.jsp");
 		
 	}
