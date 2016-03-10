@@ -55,7 +55,7 @@ public class TestServlet extends HttpServlet {
 		
 		UserInfoBean mook = new UserInfoBean();
 		mook.setName("mook");
-		mook.setIpAddress("ip najazzz");
+		mook.setIpAddress("ip najazzz eiei");
 		
 		BankChannelRemote bankRmt;
 		try {
@@ -69,7 +69,7 @@ public class TestServlet extends HttpServlet {
 		}
 		
 		logger.info("TEST LOG");
-		logger.debug("Dok tonggggzzzz");
+		logger.debug("Dok tonggggzzzz naja");
 		response.sendRedirect("./index.jsp");
 		
 	}
