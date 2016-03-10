@@ -39,7 +39,7 @@ public class TestServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("hoho");
+		System.out.println("hohohaha");
 		doPost(request, response);
 	}
 
@@ -57,19 +57,19 @@ public class TestServlet extends HttpServlet {
 		mook.setName("mook");
 		mook.setIpAddress("ip najazzz eiei");
 		
-		BankChannelRemote bankRmt;
-		try {
-			bankRmt = (BankChannelRemote) EJBInitialContext.lookup("java:global/MFSWebBillerEAR/MFSWebBillerEJB/BankChannel!mfs.biller.ejb.interfaces.BankChannelRemote");
-			BankChannelBean x = bankRmt.findBankChannel("0099", mook);
-			logger.debug(x.getBANK_CHNL_FULL_NAME_EN());
-		} catch (NamingException e2) {
-			e2.printStackTrace();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+//		BankChannelRemote bankRmt;
+//		try {
+//			bankRmt = (BankChannelRemote) EJBInitialContext.lookup("java:global/MFSWebBillerEAR/MFSWebBillerEJB/BankChannel!mfs.biller.ejb.interfaces.BankChannelRemote");
+//			BankChannelBean x = bankRmt.findBankChannel("0099", mook);
+//			logger.debug(x.getBANK_CHNL_FULL_NAME_EN());
+//		} catch (NamingException e2) {
+//			e2.printStackTrace();
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
 		
 		logger.info("TEST LOG");
-		logger.debug("Dok tonggggzzzz naja");
+		logger.debug("Dok tonggggzzzzeiei naja");
 		response.sendRedirect("./index.jsp");
 		
 	}
