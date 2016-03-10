@@ -33,6 +33,7 @@ import mfs.biller.util.DateTimeUtil;
 import mfs.biller.util.JpaResultUtil;
 import mfs.biller.util.Timer;
 import mfs.biller.util.ValidateUtil;
+import mfs.constant.PersonalConstant;
 
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Logger;
@@ -970,7 +971,7 @@ public class RptTransBean implements RptTransBeanRemote, RptTransBeanLocal {
 	
 	public static void main(String[] args) {
 //		PropertyConfigurator.configure("log4j.properties");
-		PropertyConfigurator.configure("D:/DTAC/Workspace/Biller/TestWebBiller/WebContent/log4j.properties");
+		PropertyConfigurator.configure(PersonalConstant.logConfigPath+"log4j.properties");
 		
 		RptTransBean rtb = new RptTransBean();
 		try {

@@ -6,6 +6,7 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
+import mfs.constant.PersonalConstant;
 import mfs.exception.InitialEJBContextException;
 
 import org.apache.log4j.Logger;
@@ -20,7 +21,7 @@ public class EJBInitialContext {
 	}
 
 	public static Context getInitialContext() throws InitialEJBContextException {
-		PropertyConfigurator.configure("D:/DTAC/Workspace/Biller/TestWebBiller/WebContent/log4j.properties");
+		PropertyConfigurator.configure(PersonalConstant.logConfigPath+"log4j.properties");
 		Context context = null;
 		log.info("Create context");
 		try {

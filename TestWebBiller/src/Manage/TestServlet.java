@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import mfs.biller.ejb.interfaces.BankChannelRemote;
 import mfs.biller.persistence.bean.BankChannelBean;
 import mfs.biller.persistence.bean.UserInfoBean;
+import mfs.constant.PersonalConstant;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -50,7 +51,7 @@ public class TestServlet extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html;charset=UTF-8");
 		
-		String log4jConfPath = "D:/DTAC/Workspace/Biller/TestWebBiller/WebContent/log4j.properties";
+		String log4jConfPath = PersonalConstant.logConfigPath+"log4j.properties";
 		PropertyConfigurator.configure(log4jConfPath);
 		
 		UserInfoBean mook = new UserInfoBean();

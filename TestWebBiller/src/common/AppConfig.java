@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 import mfs.biller.util.AppUtil;
+import mfs.constant.PersonalConstant;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -69,7 +70,7 @@ public class AppConfig {
 	}
 
 	public static void loadConfig() {
-		String log4jConfPath = "D:/DTAC/Workspace/Biller/TestWebBiller/WebContent/log4j.properties";
+		String log4jConfPath = PersonalConstant.logConfigPath+"log4j.properties";
 		PropertyConfigurator.configure(log4jConfPath);
 		
 		try {
