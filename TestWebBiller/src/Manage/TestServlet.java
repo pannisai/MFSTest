@@ -55,7 +55,7 @@ public class TestServlet extends HttpServlet {
 		
 		UserInfoBean mook = new UserInfoBean();
 		mook.setName("mook");
-		mook.setIpAddress("ip naja");
+		mook.setIpAddress("ip najazzz");
 		
 		BankChannelRemote bankRmt;
 		try {
